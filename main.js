@@ -5,7 +5,7 @@ const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayerSta
 
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_VOICE_STATES"]});
 
-let sultansResource = createAudioResource('./audio/Sultans.mp3');
+let sultansResource = createAudioResource(process.env.RESOURCE_ROUTE);
 let audioPlayer = createAudioPlayer();
 let connection = null;
 let voiceChannel = null;
@@ -53,7 +53,7 @@ client.on('messageCreate', (message) => {
             if (playerStatus === "paused") {
                 audioPlayer.unpause();
             } else {
-                sultansResource = createAudioResource('./audio/Sultans.mp3');
+                sultansResource = createAudioResource(process.env.RESOURCE_ROUTE);
                 
                 if (playerStatus !== "playing") {
                     audioPlayer.play(sultansResource);
