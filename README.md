@@ -38,7 +38,11 @@ Copy the generated url and provide it to a Discord Server Bot manager to allow o
 ### 7. Commands
 
 **/play** - Bot joins Voice Channel of user who called it and starts playing audio source. Continues audio source if paused, and starts audio source if no audio source is playing.
+<br />
 **/stop** - Stops audio source, but bot remains in Voice Channel
+<br />
 **/pause** - Pauses audio source.
+<br />
 **/continue** - Continues audio source.
+<br />
 **/leave** - Removes bot from Voice Channel.
