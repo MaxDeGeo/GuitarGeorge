@@ -1,0 +1,19 @@
+{
+  "name": "sosbot",
+  "version": "1.0.0",
+  "description": "Discord Bot that only plays Sultan of Swing\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ds \u001b[2~of Swing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max De George",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^13.6.0",
+    "dotenv": "^12.0.3",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.9"
+  }
+}
