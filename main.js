@@ -40,6 +40,11 @@ client.on('messageCreate', (message) => {
             const textChannel = client.channels.cache.get(message.channelId);
             voiceChannel = message.member.voice.channel; 
 
+            if (!voiceChannel) {
+                textChannel.send("Please join a Voice Channel to play Sultans of Swing.");
+                return;
+            }
+
             if (!connection) {
                 connection = joinVoiceChannel({
                     channelId: voiceChannel.id,
