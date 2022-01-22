@@ -13,7 +13,7 @@ let subscription = null;
 let playerStatus = null;
 
 client.on('ready', () => {
-    console.log('SoSBot is online');
+    console.log('SoSBot is online!');
 });
 
 //#region life cycle methods
