@@ -2,7 +2,7 @@
   "name": "sosbot",
   "version": "1.0.0",
   "engines": {
-    "node": "16.13.2"
+    "node": "16.x"
   },
   "description": "Discord Bot that only plays Sultan of Swing\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Ds \u001b[2~of Swing",
   "main": "index.js",
